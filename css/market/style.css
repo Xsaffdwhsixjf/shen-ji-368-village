@@ -245,14 +245,23 @@ body {
   .cols{
     display: flex;
     flex-wrap: wrap;
+    transform: translateX(4%);
+    padding-top: 5%;
   }
   .col{
-    margin: 0;
+    margin: 0 %;
     width: 220px;
     height: 160px;
     top: 0;
     left: 0;
     position: relative;
+  }
+  .time{
+    top: -28%;
+  }
+  .community{
+    top: -28%;
+    left: 15%;
   }
   .container{
     position: relative;
